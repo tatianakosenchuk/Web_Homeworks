@@ -2,10 +2,55 @@ body {
     background-color: rgb(1, 180, 170);
 }
 
+.wrap{
+    width: 1300px;
+    margin: auto;
+}
+
 h1{
     color: rgb(10, 9, 97);
 }
 
 h2 {
     color: rgb(20, 78, 15);
+}
+
+a {
+    color:rgb(24, 20, 300);    
+}
+
+a:hover{
+    color: rgb(294, 21, 31);
+}
+
+img{
+    width: 600px;
+    margin-left: 50px;
+}
+
+p{
+    font-family: 'Asap Italic',sans-serif;
+}
+
+.bigger{
+    font-size: 2rem;
+}
+
+ol{
+    font-family: 'Asap Italic', sans-serif;
+}
+
+ul{
+    font-family: 'Asap Italic', sans-serif;
+    list-style: square;
+}
+
+@font-face {
+	font-family: 'Asap Italic';
+	src: url('fonts/asap_italic.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/asap_italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/asap_italic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/asap_italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/asap_italic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/asap_italic.svg#asap_italic') format('svg'); /* Chrome < 4, Legacy iOS */
 }
